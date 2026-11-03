@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="DoAn_Backend">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DoAn_Backend/doan1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/DoAn_Backend/DoAn.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
