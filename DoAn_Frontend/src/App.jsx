@@ -12,12 +12,12 @@ function Dashboard() {
 
     const fetchData = () => {
         // Đã sửa lại đường dẫn API lấy danh sách đề tài sang link tunnel mới
-        axios.get('https://hoangdemo.onrender.com')
+        axios.get('https://hoangdemo.onrender.com/api/login')
             .then(response => setTopics(response.data))
             .catch(error => console.error('Lỗi:', error));
 
         // Đã sửa lại đường dẫn API lấy danh sách môn học sang link tunnel mới
-        axios.get('https://hoangdemo.onrender.com')
+        axios.get('https://hoangdemo.onrender.com/api/login')
             .then(response => {
                 setSubjects(response.data);
                 if (response.data.length > 0) {
