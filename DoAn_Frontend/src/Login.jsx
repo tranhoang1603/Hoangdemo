@@ -17,7 +17,7 @@ function Login() {
 
         try {
             // Đã sửa lại đúng đường dẫn API Đăng nhập
-            const response = await axios.post('https://hoangdemo.onrender.com/api/login', {
+            const response = await axios.post('https://hoangdemo.onrender.com/api/loginD', {
                 username: username,
                 password: password
             });
